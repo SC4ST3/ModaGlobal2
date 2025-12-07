@@ -6,4 +6,6 @@ function afegirContacte(nom) {
     }
 
     console.log("Contacte afegit: " + nom);
+    console.log("Modificació a main abans del conflicte d'eliminació");
+
 }
