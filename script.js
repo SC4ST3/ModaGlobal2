@@ -1,5 +1,9 @@
-console.log("ModaGlobal carregat correctament");
+function afegirContacte(nom) {
+    if (!nom || nom.trim() === "") {
+        console.log("No es pot afegir un contacte en blanc");
+        alert("El nom del contacte no pot estar en blanc.");
+        return;
+    }
 
-function mostrarMissatgeBenvinguda() {
-    alert("Benvingut/da a ModaGlobal!");
+    console.log("Contacte afegit: " + nom);
 }
